@@ -22,7 +22,7 @@
 
 * In this api it's being used the dotenv package, to change the port that api will be listened you just need to create a .env file in the root directory of the project.
 
-### The api environments are the following:
+### The api environment variables are the following:
 
 * `PORT` the port that the api will be listened.
 * `NODE_ENV` the environment of the api, ex: development, production.
