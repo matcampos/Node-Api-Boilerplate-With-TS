@@ -25,7 +25,7 @@
 ### The api environments are the following:
 
 * `PORT` the port that the api will be listened.
-* `NODE_ENV` the environment pf the api, ex: development, production.
+* `NODE_ENV` the environment of the api, ex: development, production.
 * [Click here to see an example of how to configure the .env](./.env.sample)
 
 * Author: [Matheus Campos](https://github.com/matcampos) - Full Stack Developer.
