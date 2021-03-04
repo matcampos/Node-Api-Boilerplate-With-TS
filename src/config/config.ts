@@ -1,4 +1,5 @@
 import Joi from 'joi';
+import { Config } from '../models';
 
 // require and configure dotenv, will load vars in .env in PROCESS.ENV
 import dotenv from 'dotenv';
@@ -19,9 +20,9 @@ if (error) {
     throw new Error(`Config validation error: ${error.message}`);
 }
 
-const config = {
+const config = new Config({
     env: envVars.NODE_ENV,
     port: envVars.PORT,
-};
+});
 
 export default config;
