@@ -33,4 +33,6 @@
 * `NODE_ENV` the environment of the api, ex: development, production.
 * [Click here to see an example of how to configure the .env](./.env.sample)
 
-* Author: [Matheus Campos](https://github.com/matcampos) - Full Stack Developer.
+## Authors
+
+* **Matheus Campos** - *Full-Stack Developer* - [Github](https://github.com/matcampos)
