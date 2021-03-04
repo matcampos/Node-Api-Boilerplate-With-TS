@@ -8,7 +8,7 @@ COPY package*.json ./
 
 COPY . .
 
-RUN rm -R node_modules
+RUN cp .env.docker.local .env
 
 RUN npm install
 

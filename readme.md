@@ -20,6 +20,12 @@
 
 ### Build with docker
 
+* First: Configure the .env.docker.local file, add the following variables to docker environment file (.env.docker.local):
+
+ `PORT=3000`
+
+ `NODE_ENV=development`
+
 * If already have docker installed in your machine, just run the following command: `docker-compose up -d`
 * If you don't have docker installed, download docker on the following link: [docker](https://www.docker.com/products/docker-desktop), after the docker instalation conclusion execute this command: `docker-compose up -d`
 
