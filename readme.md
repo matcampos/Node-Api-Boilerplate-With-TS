@@ -18,6 +18,11 @@
 
 *  If you just want to build the api from ts to js run the following command in terminal `npm run build`
 
+### Build with docker
+
+* If already have docker installed in your machine, just run the following command: `docker-compose up -d`
+* If you don't have docker installed, download docker on the following link: [docker](https://www.docker.com/products/docker-desktop), after the docker instalation conclusion execute this command: `docker-compose up -d`
+
 ## Environment Variables
 
 * In this api it's being used the dotenv package, to change the port that api will be listened you just need to create a .env file in the root directory of the project.
