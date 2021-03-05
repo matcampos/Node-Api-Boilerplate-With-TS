@@ -1,6 +1,6 @@
 # Node Api Boilerplate with Typescrypt
 
-## Pré Requisites:
+## Prerequisites:
 
 * Install node js: [NodeJS](https://nodejs.org/en/)
 
@@ -26,8 +26,8 @@
 
  `NODE_ENV=development`
 
-* If already have docker installed in your machine, just run the following command: `docker-compose up -d`
-* If you don't have docker installed, download docker on the following link: [docker](https://www.docker.com/products/docker-desktop), after the docker instalation conclusion execute this command: `docker-compose up -d`
+* If you already have docker installed in your machine, just run the following command: `docker-compose up -d`
+* If you don't have docker installed, download docker on the following link: [docker](https://www.docker.com/products/docker-desktop), after the docker's instalation is complete, execute this command: `docker-compose up -d`
 
 ## Environment Variables
 
